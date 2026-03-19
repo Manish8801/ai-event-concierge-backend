@@ -1,7 +1,8 @@
 {
   "name": "ai-event-concierge-backend",
   "version": "1.0.0",
-  "description": "RESTful API server for the AI Event Concierge platform. Handles natural language event planning requests, processes them through an LLM, and persists proposals to MongoDB."  "main": "sever.ts",
+  "description": "RESTful API server for the AI Event Concierge platform. Handles natural language event planning requests, processes them through an LLM, and persists proposals to MongoDB.",
+  "main": "sever.ts",
   "type": "module",
   "scripts": {
     "dev": "nodemon",
