@@ -10,10 +10,9 @@ export const BASE_URL = process.env.BASE_URL || "/api/v1";
 export const GEMINI_API_KEY = process.env.GEMINI_API_KEY!;
 export const GEMINI_API_VERSION = process.env.GEMINI_API_VERSION!;
 export const EVENT_JSON_STRUCTURE = JSON.stringify({
-  venue: "Real venue name",
-  location:
-    "Real ideal location and also add the location matching emoji if available",
+  venue: "Decent venue name",
+  location: "Think the ideal real world location",
   estimatedCost:
-    "Estimated Cost in numbers and also add that money symbol accordingly if not provided that simply add rupees symbol",
-  whyItFits: "Briefly justify why this fits the best.",
+    "Estimated cost in number and currecny sign(dollar if not mentioned) less than and very close to the atual budget described",
+  whyItFits: "Briefly justify why this location fits the best",
 });
