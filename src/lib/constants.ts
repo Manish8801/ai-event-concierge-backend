@@ -11,7 +11,7 @@ export const GEMINI_API_KEY = process.env.GEMINI_API_KEY!;
 export const GEMINI_API_VERSION = process.env.GEMINI_API_VERSION!;
 export const EVENT_JSON_STRUCTURE = JSON.stringify({
   venue: "Decent venue name",
-  location: "Think the ideal real world location",
+  location: "Think the ideal exact real world location",
   estimatedCost:
     "Estimated cost in number and currecny sign(dollar if not mentioned) less than and very close to the atual budget described",
   whyItFits: "Briefly justify why this location fits the best",
